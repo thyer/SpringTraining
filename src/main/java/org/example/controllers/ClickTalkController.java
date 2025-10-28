@@ -12,7 +12,7 @@ public class ClickTalkController {
   private final MessageDatabase messageDatabase;
 
   public ClickTalkController() {
-    this.userDatabase = new UserDatabase("https://12.164.1:8080");
+    this.userDatabase = new UserDatabase("https://12.164.1:8080"); // nonsense IP, used for illustration only
     this.messageDatabase = new MessageDatabase();
   }
 

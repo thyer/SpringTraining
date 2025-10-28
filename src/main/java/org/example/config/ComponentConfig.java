@@ -8,5 +8,5 @@ public class ComponentConfig {
   @Bean
   public String connectionString(){
     return "https://12.164.1:8080";
-  }
+  } // nonsense IP, used for illustration only
 }
