@@ -38,4 +38,14 @@ public class ClickTalkController {
   {
     return ResponseEntity.ok("Not yet implemented");
   }
+
+  @PostMapping(path="/sendMessage/{sender}/{recipient}/{content}")
+  public ResponseEntity<String> sendMessage(@PathVariable String sender, @PathVariable String recipient, @PathVariable String content) {
+    return ResponseEntity.ok("Not yet implemented");
+  }
+
+  @PostMapping(path="/markAsRead/{messageId}")
+  public ResponseEntity<String> markAsRead(@PathVariable long messageId) {
+    return ResponseEntity.ok("Not yet implemented");
+  }
 }

@@ -12,6 +12,7 @@ public class MessageDatabase {
   public List<ClickTalkMessage> getUnreadMessages(String username) {
     return messages.stream().filter(msg -> msg.getRecipient().equals(username) && !msg.isRead()).toList();
   }
+
   public void addMessage(ClickTalkMessage message) {
     messages.add(message);
   }
