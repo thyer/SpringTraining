@@ -14,6 +14,7 @@ public class ClickTalkController {
   public ClickTalkController() {
     this.userDatabase = new UserDatabase("https://12.164.1:8080"); // nonsense IP, used for illustration only
     this.messageDatabase = new MessageDatabase();
+    System.out.println("I'm entering the ClickTalkController constructor");
   }
 
   @GetMapping(path="/{name}")
